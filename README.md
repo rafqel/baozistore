@@ -17,6 +17,11 @@ Este projeto foi desenvolvido como requisito para avaliação da disciplina de *
 
 O sistema foi construído utilizando os princípios de APIs REST e a arquitetura MVC do Spring. Ele permite o cadastro e gerenciamento de clientes, produtos e a realização de pedidos simples (onde um cliente compra um produto em determinada quantidade).
 
+### 📊 Diagrama de Caso de Uso
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d352cd93-fc61-481e-828b-5c8752582df8" alt="Diagrama de Caso de Uso" width="500">
+</p>
+
 ### 🏗️ Arquitetura e Estrutura
 O projeto segue o padrão de camadas recomendado pelo ecossistema Spring:
 *   **`model`**: Contém as entidades JPA (`Cliente`, `Produto`, `Pedido`).
